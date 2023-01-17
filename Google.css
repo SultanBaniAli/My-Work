@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white ;
+}
+.box{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: lightblue;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.box:hover input{
+    width: 400px;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 1s ;
+    background: transparent;
+}
+.box a .fas{
+    color: black;
+    font-size: 18px;
+}
+img{
+    display: block;
+    border-radius: 100px 500px 500px 650px ;
+    position:absolute;
+    top: 160px;
+}
+.Image{
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    font-size: 19px;
+    color: darkblue;
+    border-bottom: none;
+    text-decoration: none;
+
+}
+.Advance{
+    position: absolute;
+    top: 2px;
+    right: 90px;
+    font-size: 19px;
+    color: darkblue;
+    border-bottom: none;
+    text-decoration: none;
+}
+.Sub{
+background: transparent;
+border: 0px;
+background-color: white;
+margin: 10px;
+border-radius: 20px;
+color: white;
+top: 20px;
+display: flex;
+position: absolute;
+}

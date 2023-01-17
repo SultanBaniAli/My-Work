@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <style>
+        ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+        }
+        .adv a{
+            margin: 10px;
+            color: black;
+            text-decoration: none;
+        }
+        .img a{
+            margin: 10px;
+            color: black;
+            text-decoration: none;
+        }
+        img{
+            height: 92px;
+            width: 270px;
+        }
+        .image-bar{
+            display: flex;
+            justify-content: center;
+        }
+        .input{
+            display: flex;
+            z-index: 3;
+            height: 44px;
+            background: white;
+            border: 1px solid #dfe1e5;
+            box-shadow: none;
+            border-radius: 24px;
+            margin: 0 auto;
+            width: calc(620px + 6px);
+            width: 500px;
+            max-width: 584px;
+        }
+        .submit{
+            display: flex;
+            border-radius: 30px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li class="adv"><a href="Advance.html">Advance Search</a></li>
+            <li class="img"><a href="Google.html">Google Search</a></li>
+        </ul>
+    </div>
+    <div class="image-bar">
+        <img src="images.png" alt="Google icon">
+    </div>
+    <form action="https://google.com/search">
+    <input type="hidden" name="tbm" value="isch">
+    <input type="text" name="q" class="input">
+    <div class="image-bar">
+        <input type="submit" value="Google Image" class="submit">
+    </div>
+    </form>  
+</body>
+</html>
